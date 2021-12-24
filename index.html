@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Intro</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="timer.js"></script>
+</head>
+<body>
+    <div id="inner-box">
+        <div id="select-difficulty">
+            <select id="difficulty">
+                <option value="normal">노말 진힐라</option>
+                <option value="hard">하드 진힐라</option>
+            </select>
+        </div>
+        <div id="timer-box">
+            <div id="timer">
+                <div class="time-list">
+                    <span>현재 시간:</span>
+                    <span id="time-now">00분 00초</span>
+                </div>
+                <div class="time-list">
+                    <span>낫베기 시간:</span>
+                    <span id="time-nexPattern">00분 00초</span>
+                </div>
+                <div class="time-list">
+                    <span>남은 시간:</span>
+                    <span id="time-pattern">00분 00초</span>
+                </div>
+            </div>
+            <div id="buttons">
+                <div class="time-button">
+                    <button id="timer-start" type="button" onclick="timer()">타이머 시작</button>
+                    <button id="timer-reset" type="button">타이머 리셋</button>
+                </div>
+                <div class="time-button">
+                    <button class="time-select" type="button">1페</button>
+                    <button class="time-select" type="button">2페</button>
+                    <button class="time-select" type="button">3페</button> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+ 
+
+</html>

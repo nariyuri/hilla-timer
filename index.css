@@ -1,0 +1,11 @@
+#inner-box {
+    top: 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+.time-list {
+    display: flex;
+}
+.time-button{
+    margin: 10, 30
+}
