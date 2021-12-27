@@ -28,7 +28,7 @@ function timer() {
         patternObj = hard
     }
     console.log("startTimer")
-    let time = 1800;
+    let time = 1799;
     onTimer = true;
     timerNow = setInterval(function() {
         $('#time-now').text(parseInt(time/60) + "분 " + time%60 + "초");
